@@ -2,15 +2,15 @@ html, body {
     height: 100%; 
     padding: 0;
     margin: 0;
-    background-image: url('./assets/background.svg');
-    background-size: 1633px;
-    background-position: top;
-    
 }
 .page{
     display: flex;
     justify-content: center;
     max-width: 100%;
+    background-image: url('./assets/background.svg');
+    background-position: top;
+    background-size: cover;
+    height: 100%;
 }
 
 
