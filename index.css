@@ -13,14 +13,6 @@ html, body {
     height: 100%;
 }
 
-
-.content{
-    display: -webkit-flex;
-    display: flex;
-    width: 500px;
-    flex-direction: column;
-}
-
 .top-nav img,
 img,
 h2,
@@ -31,16 +23,26 @@ h2,
     filter: drop-shadow(15px 30px 10px #b143ff4d);
 }
 
+.content{
+    display: -webkit-flex;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
 .top-nav {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 60px;
-    flex:1;
 }
 
 .top-nav img {
     height:45px
+}
+
+.logo {
+    margin-bottom: 60px;
 }
 
 h2{
@@ -50,13 +52,12 @@ h2{
     font-weight:900;
     color: #ffec00;
     line-height: 300%;
-    font-size: 20pt;
-    flex:1;
+    font-size: 15pt;
+    margin-bottom: 50px;
 }
 
 .wordblock {
     background-color: #b143ff;
-    flex:1;
 }
 
 .wordblock p {
